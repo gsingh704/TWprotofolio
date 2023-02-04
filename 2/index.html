@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        p{
+           
+            
+            white-space: nowrap;
+            overflow: hidden;
+            width: 30em;
+            animation: type 4s steps(60, end);
+        }
+
+        @keyframes type {
+            from {
+                width: 0;
+            }
+        }
+    </style>
+</head>
+
+<body class="max-w-5xl mx-auto">
+    <!-- navbar that take to different parts in the page-->
+    <nav class=" flex justify-evenly dark:bg-gray-900 text-white  items-center flex-col md:flex-row ">
+        <div class="text-green-500 px-3 py-1  text-xl font-bold w-50 md:w-60">
+            Hi! I'm Gurjant Singh
+        </div>
+        <div class="flex px-3 py-1 items-center  justify-between ">
+            <a href="#intro"
+                class="  px-3 py-2 hover:border hover:border-gray-50 hover:rounded-lg hover:bg-gray-600">Intro</a>
+            <a href="#about"
+                class=" px-3 py-2 hover:border hover:border-gray-50 hover:rounded-lg  hover:bg-gray-600">About Me</a>
+            <a href="#contact"
+                class=" px-3 py-2 hover:border hover:border-gray-50 hover:rounded-lg  hover:bg-gray-600">Contact</a>
+            <a href="#education"
+                class=" px-3 py-2 hover:border hover:border-gray-50 hover:rounded-lg  hover:bg-gray-600">Education</a>
+            <a href="#projects"
+                class=" px-3 py-2 hover:border hover:border-gray-50 hover:rounded-lg  hover:bg-gray-600">Projects</a>
+            <a href="#skills"
+                class=" px-3 py-2 hover:border hover:border-gray-50 hover:rounded-lg  hover:bg-gray-600">Skills</a>
+        </div>
+
+    </nav>
+
+
+    <!-- full page intro -->
+    <div class="bg-gray-900 text-white text-center  relative py-40" id="intro">
+        <img src="../img/1.png" class="  m-auto">
+        <h1 class="absolute text-3xl text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            Hi! I'm <p> Gurjant Singh</p> <br>
+            I'm a <p>Web Developer</p> 
+        </h1>
+
+    </div>
+    
+
+    <!-- about me section -->
+
+
+
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.3/iconify-icon.min.js"></script>
+</body>
+
+</html>
