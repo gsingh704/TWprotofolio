@@ -9,35 +9,81 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
+<body class="max-w-3xl mx-auto">
     <!-- navbar that take to different parts in the page-->
-    <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900 text-white">
-        <ul class="flex ">
-            <li><a href="#intro" >Intro</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-        </ul>
+    <nav class=" flex justify-evenly dark:bg-gray-900 text-white  items-center flex-col md:flex-row ">
+        <div class="text-green-500 px-3 py-1  text-xl font-bold w-50 md:w-60">
+            Hi! I'm Gurjant Singh
+        </div>
+        <div class="flex px-3 py-1 items-center  justify-between ">
+            <a href="#intro"
+                class="  px-3 py-2 hover:border hover:border-gray-50 hover:rounded-lg hover:bg-gray-600">Intro</a>
+            <a href="#about"
+                class=" px-3 py-2 hover:border hover:border-gray-50 hover:rounded-lg  hover:bg-gray-600">About Me</a>
+            <a href="#contact"
+                class=" px-3 py-2 hover:border hover:border-gray-50 hover:rounded-lg  hover:bg-gray-600">Contact</a>
+            <a href="#education"
+                class=" px-3 py-2 hover:border hover:border-gray-50 hover:rounded-lg  hover:bg-gray-600">Education</a>
+            <a href="#projects"
+                class=" px-3 py-2 hover:border hover:border-gray-50 hover:rounded-lg  hover:bg-gray-600">Projects</a>
+            <a href="#skills"
+                class=" px-3 py-2 hover:border hover:border-gray-50 hover:rounded-lg  hover:bg-gray-600">Skills</a>
+        </div>
+
     </nav>
 
 
-    <!-- sidebar -->
+
 
     <!-- main content -->
-        <!-- intro -->
-        
-        <!-- contact -->
+    <!-- intro -->
+    <div class="flex justify-center items-center bg-slate-900 rounded-3xl  my-3 py-2 flex-col  md:flex-row" id="intro">
+        <img src="https://media.istockphoto.com/id/1130884625/vector/user-member-vector-icon-for-ui-user-interface-or-profile-face-avatar-app-in-circle-design.jpg?s=612x612&w=0&k=20&c=1ky-gNHiS2iyLsUPQkxAtPBWH1BZt0PKBB1WBtxQJRE="
+            class="rounded-full h-60 w-60" alt="">
+        <div class="flex flex-col justify-center items-center text-gray-50 ">
+            <h1 class="text-4xl font-bold">Gurjant Singh</h1>
+            <h2 class="text-2xl font-bold">Web Developer</h2>
+            <p class="text-xl font-bold">I am a web developer and I love to code</p>
+        </div>
+    </div>
+    <!-- about me -->
+    <div class=" mx-5 my-3 py-2 text-slate-800 text-xl" id="about">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio corrupti reprehenderit, saepe accusamus est non
+            suscipit magni dignissimos, vel eligendi repellat minima possimus exercitationem ducimus magnam dolorem
+            perferendis inventore hic.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At ea in voluptate commodi facere, itaque officia
+            hic perferendis nesciunt praesentium similique est nemo atque facilis molestiae voluptatibus tenetur vitae
+            repellendus!</p>
+    </div>
 
-        <!-- education -->
-        
-        <!-- projects Done -->
 
-        <!-- skills -->
+    <!-- contact -->
+    <div class="flex justify-evenly items-center bg-slate-900 rounded-3xl  my-3 py-2 text-white max-w-960 flex-col md:flex-row "
+        id="contact">
 
-        
+        <div class="text-4xl font-bold ">Contact Me</div>
+
+        <div class="text-xl list-none py-3 ">
+
+            <a href="#"><iconify-icon inline icon="ic:round-email"></iconify-icon> example@email.com</a> <br>
+            <a href="#"><iconify-icon inline icon="ic:baseline-local-phone"></iconify-icon> 123-456-7890</a> <br>
+            <a href="#"><iconify-icon inline icon="mdi:linkedin"></iconify-icon> linkedin.com/example</a> <br>
+            <a href="#"><iconify-icon inline icon="mdi:github"></iconify-icon> github.com/example</a> <br>
+
+        </div>
+    </div>
+
+    <!-- education -->
+
+
+    <!-- projects Done -->
+
+    <!-- skills -->
+
+
 
     <!-- footer -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.3/iconify-icon.min.js"></script>
 </body>
 
 </html>
