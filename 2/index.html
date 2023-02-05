@@ -8,9 +8,7 @@
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        p{
-           
-            
+        p {
             white-space: nowrap;
             overflow: hidden;
             width: 30em;
@@ -25,42 +23,97 @@
     </style>
 </head>
 
-<body class="max-w-5xl mx-auto">
+<body class=" mx-auto bg-slate-900">
     <!-- navbar that take to different parts in the page-->
     <nav class=" flex justify-evenly dark:bg-gray-900 text-white  items-center flex-col md:flex-row ">
         <div class="text-green-500 px-3 py-1  text-xl font-bold w-50 md:w-60">
             Hi! I'm Gurjant Singh
         </div>
-        <div class="flex px-3 py-1 items-center  justify-between ">
-            <a href="#intro"
-                class="  px-3 py-2 hover:border hover:border-gray-50 hover:rounded-lg hover:bg-gray-600">Intro</a>
-            <a href="#about"
-                class=" px-3 py-2 hover:border hover:border-gray-50 hover:rounded-lg  hover:bg-gray-600">About Me</a>
-            <a href="#contact"
-                class=" px-3 py-2 hover:border hover:border-gray-50 hover:rounded-lg  hover:bg-gray-600">Contact</a>
-            <a href="#education"
-                class=" px-3 py-2 hover:border hover:border-gray-50 hover:rounded-lg  hover:bg-gray-600">Education</a>
-            <a href="#projects"
-                class=" px-3 py-2 hover:border hover:border-gray-50 hover:rounded-lg  hover:bg-gray-600">Projects</a>
-            <a href="#skills"
-                class=" px-3 py-2 hover:border hover:border-gray-50 hover:rounded-lg  hover:bg-gray-600">Skills</a>
+        <div class="flex px-3 py-1 items-center  justify-between text-xl">
+            <a href="#intro" class="  px-3 py-2 hover:rounded-lg hover:bg-gray-600 hover:scale-125">Intro</a>
+            <a href="#about" class=" px-3 py-2 hover:rounded-lg  hover:bg-gray-600 hover:scale-125">About Me</a>
+            <a href="#contact" class=" px-3 py-2  hover:rounded-lg  hover:bg-gray-600 hover:scale-125">Contact</a>
+            <a href="#education" class=" px-3 py-2 hover:rounded-lg  hover:bg-gray-600 hover:scale-125">Education</a>
+            <a href="#projects" class=" px-3 py-2 hover:rounded-lg  hover:bg-gray-600 hover:scale-125">Projects</a>
+            <a href="#skills" class=" px-3 py-2 hover:rounded-lg  hover:bg-gray-600 hover:scale-125">Skills</a>
         </div>
 
     </nav>
 
 
     <!-- full page intro -->
-    <div class="bg-gray-900 text-white text-center  relative py-40" id="intro">
-        <img src="../img/1.png" class="  m-auto">
+    <div class="bg-gray-900 text-white text-center  relative py-10 " id="intro">
+        <img src="../img/1.png" class="m-auto hover:scale-125">
         <h1 class="absolute text-3xl text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
             Hi! I'm <p> Gurjant Singh</p> <br>
-            I'm a <p>Web Developer</p> 
+            I'm a <p>Web Developer</p>
         </h1>
 
     </div>
-    
+
 
     <!-- about me section -->
+    <div class="max-w-5xl m-auto p-16 bg-gray-200 text-slate-900 rounded-xl text-justify   text-xl  " id="about">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quo est, aliquid dicta voluptas quidem excepturi
+        possimus iure officia pariatur autem nulla at, doloremque aliquam maiores praesentium similique numquam
+        doloribus.
+
+        <div class="flex flex-row items-center  p-6  ">
+            <iconify-icon icon="vscode-icons:file-type-html" class="text-9xl "> </iconify-icon>
+            <span>
+                <span class="text-3xl">HTML</span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia tempore, dolores doloribus
+                doloremque iusto ratione qui, eaque, cum neque ab assumenda voluptatibus cupiditate nemo.
+                Doloremque voluptatum maiores dolorum excepturi ipsa?
+            </span>
+        </div>
+        <div class="flex flex-row-reverse items-center  p-6  ">
+            <iconify-icon icon="vscode-icons:file-type-css" class="text-9xl "> </iconify-icon>
+            <span>
+                <span class="text-3xl">CSS</span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia tempore, dolores doloribus
+                doloremque iusto ratione qui, eaque, cum neque ab assumenda voluptatibus cupiditate nemo.
+                Doloremque voluptatum maiores dolorum excepturi ipsa?
+            </span>
+        </div>
+        <div class="flex flex-row items-center  p-6  ">
+            <iconify-icon icon="vscode-icons:file-type-js-official" class="text-9xl "> </iconify-icon>
+            <span>
+                <span class="text-3xl">JavaScript</span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia tempore, dolores doloribus
+                doloremque iusto ratione qui, eaque, cum neque ab assumenda voluptatibus cupiditate nemo.
+                Doloremque voluptatum maiores dolorum excepturi ipsa?
+            </span>
+        </div>
+        <div class="flex flex-row-reverse items-center  p-6  ">
+            <iconify-icon icon="vscode-icons:file-type-docker" class="text-9xl "> </iconify-icon>
+            <span>
+                <span class="text-3xl">Docker</span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia tempore, dolores doloribus
+                doloremque iusto ratione qui, eaque, cum neque ab assumenda voluptatibus cupiditate nemo.
+                Doloremque voluptatum maiores dolorum excepturi ipsa?
+            </span>
+        </div>
+
+        <div class="flex flex-row items-center  p-6  ">
+            <iconify-icon icon="vscode-icons:file-type-git" class="text-9xl "> </iconify-icon>
+            <span>
+                <span class="text-3xl">Git</span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia tempore, dolores doloribus
+                doloremque iusto ratione qui, eaque, cum neque ab assumenda voluptatibus cupiditate nemo.
+                Doloremque voluptatum maiores dolorum excepturi ipsa?
+            </span>
+        </div>
+        <div class="flex flex-row-reverse items-center  p-6  ">
+            <iconify-icon icon="flat-color-icons:linux" class="text-9xl"></iconify-icon>
+            <span>
+                <span class="text-3xl">Linux</span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia tempore, dolores doloribus
+                doloremque iusto ratione qui, eaque, cum neque ab assumenda voluptatibus cupiditate nemo.
+                Doloremque voluptatum maiores dolorum excepturi ipsa?
+            </span>
+        </div>
+    </div>
 
 
 
